@@ -1,0 +1,9 @@
+During my 6 hours of work today, I spent most of my time fixing and improving our webpage layout 
+using HTML and CSS. I focused on adjusting the spacing, alignment, and sizes of different sections 
+so they would look closer to the original design. Some parts were tricky because when I changed one 
+thing, another part would move or break, so I had to be careful and patient.
+
+This experience taught me to slow down and check my work step by step instead of rushing. I also 
+learned that small details really matter in web design, especially when trying to copy a real website 
+layout. By the end of the day, I felt more comfortable editing CSS and more confident in fixing layout 
+problems on my own. Overall, the 6 hours were challenging but helpful, and I learned a lot from the process.

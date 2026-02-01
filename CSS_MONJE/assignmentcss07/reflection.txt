@@ -1,0 +1,10 @@
+This project really helped me understand how HTML and CSS work together when building an actual webpage. 
+I started by setting up the HTML structure first, which made the layout easier to manage before adding styles. 
+Once the structure was in place, I focused on using CSS to match the Netflix-style design, especially the spacing, alignment, 
+and overall look of the page. Seeing the page slowly come together made the process more satisfying and helped me understand why 
+structure matters.
+
+I also realized how important it is to be careful with CSS selectors and classes to avoid style conflicts. Some parts took longer 
+than expected, especially adjusting small details like margins and hover effects, but those small changes made a big difference in 
+the final output. Overall, this project improved my confidence in writing HTML and CSS and showed me how much attention to detail goes
+into creating a clean and visually appealing website.

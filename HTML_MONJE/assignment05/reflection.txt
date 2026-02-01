@@ -1,0 +1,9 @@
+It took me approximately one hour to complete my portfolio. One of the challenges
+I encountered was organizing the different sections properly and making sure the table, form elements, 
+and navigation were structured correctly. I also had to carefully adjust the layout so that the content 
+looked clean and readable. I resolved these challenges by reviewing my HTML lessons, checking my code 
+for errors, and applying proper semantic tags such as header, section, main, and footer. Using the W3C 
+Markup Validation Service helped me detect errors and ensure compliance with HTML standards. Catching 
+errors early made debugging easier and prevented larger issues later, and I will always use it to 
+check my code to ensure there are no errors. Through this activity, I was able to improve my understanding 
+of HTML structure and gain more confidence in building a complete web page.

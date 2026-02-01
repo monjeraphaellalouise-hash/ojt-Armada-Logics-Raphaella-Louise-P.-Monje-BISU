@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Overflow Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <img src="Stack Overflow/logo-stackoverflow.png" alt="Stack Overflow" class="nav-logo">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">OverflowAI</a></li>
+                </ul>
+            </div>
+            <input type="text" placeholder="Search..." class="search-bar">
+            <div class="auth-buttons">
+                <ul>
+                    <li><input type="submit" value="Log in" class="login-btn"></li>
+                    <li></li><input type="submit" value="Sign up" class="signup-btn"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="layout">
+        <aside class="sidebar">
+            <nav>
+                <ul>
+                    <div class="sidebar-top">
+                        <li><a href="#" class="active"><img src="Stack Overflow/icons/home.png" alt="Home">Home</a></li>
+                        <li><a href="#" class="active"><img src="Stack Overflow/icons/questions.png"
+                                    alt="Questions">Questions</a></li>
+                        <li><a href="#" class="active"><img src="Stack Overflow/icons/tags.png" alt="Tags"> Tags</a>
+                        </li>
+                    </div>
+
+                    <div class="sidebar-middle">
+                        <li><a href="#" class="active"><img src="Stack Overflow/icons/users.png" alt="Users">Users</a>
+                        </li>
+                        <li><a href="#" class="active"><img src="Stack Overflow/icons/companies.png"
+                                    alt="Companies">Companies</a></li>
+                    </div>
+
+                    <div class="sidebar-bottom">
+                        <p>LABS</p>
+                        <li><a href="#" class="active"><img src="Stack Overflow/icons/discussions.png"
+                                    alt="Discussions">Discussions</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Every <span class="developer">developer</span> has a<br>tab open to Stack Overflow.</h1>
+                    <p>For over 15 years we've been the Q&A platform of choice that millions of people visit every month
+                        to ask questions, learn, and share technical knowledge.</p>
+                    <div class="hero-btns">
+                        <input type="submit" class="blue-btn" value="Sign up">
+                        <a href="#" class="community">Visit the community</a>
+                    </div>
+                </div>
+                <img src="Stack Overflow/illo-home-hero.png" alt="Hero Illustration">
+            </section>
+
+            <section class="services">
+                <h3>Services for companies of all shapes & sizes</h3>
+                <section class="teams">
+                    <div class="left">
+                        <img src="Stack Overflow/stackteams.png" id="teams-logo" alt="Teams">
+                        <p>Where developers and technologists share private knowledge with coworkers.</p>
+                        <div class="left-ul">
+                            <ul>
+                                <li><a href="#" class="blue-btn1">Explore Teams</a></li>
+                                <li><a href="#" class="community1">Try for free</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img src="Stack Overflow/home-teams.png" id="teams-image" alt="Teams page">
+                </section>
+            </section>
+
+            <section class="ai-section">
+                <div class="ai-section-card">
+                    <img src="Stack Overflow/overflow-ai.png" id="overflow-ai" alt="OverflowAI">
+                    <p><strong>Now Available!</strong> A suite of GenAI tools for Stack Overflow for Teams that helps
+                        connect employees to knowledge faster.</p>
+                    <input type="submit" class="orange-btn" value="Supercharge your team >">
+                </div>
+                <img src="Stack Overflow/home-overflowai.png" alt="AI Illustration">
+            </section>
+
+            <section class="ad-api">
+                <div class="ad">
+                    <img src="stack overflow/api.png" alt="Advertisement">
+                    <p>Reach the world’s largest audience of developers and technologists.</p>
+                    <div class="ad-btns">
+                        <ul>
+                            <li><a href="#" class="blue-btn1">Advertising solutions</a></li>
+                            <li><a href="#" class="community1">Build your employer brand</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="api">
+                    <img src="stack overflow/api.png" alt="API">
+                    <p>
+                        A subscription-based API service that provides continuous access to
+                        Stack Overflow’s public dataset to train and fine-tune large language models.
+                    </p>
+                    <div class="api-btns">
+                        <a href="#" class="blue-btn1">API solutions for business</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work">
+                <h3>Work Here</h3>
+                <section class="work-content">
+                    <div class="overflow">
+                        <img src="Stack Overflow/logo-stackoverflow.png" id="stack-logo" alt="logo">
+                        <p>Join our mission to help empower the world to develop <br>technology through creative
+                            knowledge</p>
+                        <div class="work-ul">
+                            <a href="#" class="blue-btn1">Career at Stack Overflow</a>
+                        </div>
+                    </div>
+                    <img src="Stack Overflow/illo-home-careers.png" id="work-image" alt="Teams page">
+                </section>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+I spent about 7 hours working on this GitHub Explore page using HTML and CSS. At the beginning, 
+I found it challenging to align elements correctly, especially the header, cards, sidebar, and 
+footer. Matching the spacing, font sizes, and layout to the original design required a lot of 
+trial and error. Through this process, I learned how important proper structure is and how flexbox 
+and grid help in organizing content more efficiently.
+
+As I continued working, I became more comfortable adjusting spacing, applying hover effects, and 
+refining small details that improved the overall appearance of the page. This activity helped me 
+become more patient and detail-oriented, and it increased my confidence in building clean and 
+professional layouts using HTML and CSS. The time spent was worthwhile because I gained a better 
+understanding of front-end design and layout techniques.

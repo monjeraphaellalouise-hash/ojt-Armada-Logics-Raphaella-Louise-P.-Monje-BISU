@@ -1,0 +1,7 @@
+For this assignment, I focused on copying the given layout by breaking it into simple sections first, like the header and content areas.
+I started with the HTML structure, then used basic CSS properties such as margin, padding, display, and Flexbox to position and align the 
+elements. I avoided advanced positioning and followed the techniques discussed in class.
+
+One challenge I faced was getting the spacing and alignment to match the reference design. I fixed this by adjusting margins and padding 
+and using Flexbox properties like justify-content and align-items. I kept checking the layout in the browser to make sure everything looked
+right. Overall, this activity helped me understand how basic CSS can be used to build clean layouts. It took me about 1–2 hours to finish.

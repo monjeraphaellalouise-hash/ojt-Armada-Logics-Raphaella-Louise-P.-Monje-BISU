@@ -1,0 +1,8 @@
+This portfolio styling activity took me about 50 minutes to complete. 
+I used CSS to improve the look of my portfolio by adding background colors, spacing,
+borders, and font styles. I also used different display properties like block, inline,
+and inline-block to organize the layout clearly.
+
+One challenge I faced was arranging the form elements neatly, but I solved it by adjusting 
+padding and margins. I also added hover effects to the navigation links and submit button to
+make the page more interactive.

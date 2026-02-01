@@ -1,0 +1,8 @@
+This Float 1 activity took me about 40–50 minutes to complete. I used CSS float properties
+to position elements side by side and adjusted margins and padding to control spacing. At 
+first, it was confusing to get the layout right, and I had to use a lot of trial and error, 
+similar to adjusting flex directions, to see how the elements would behave.
+
+By testing different values and making small changes, I was able to fix alignment issues and 
+keep the layout organized. This activity helped me better understand how floats work and why 
+modern layout techniques like Flexbox are easier to use.

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio</title>
+    <form action="index.html" method="POST"></form>
+    
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am Raphaella Louise P. Monje, a Bachelor of Science in Computer Engineering student at Bohol Island
+                State University.. This portfolio
+                showcases my projects, skills, and interests as I continue learning and
+                building experience in web development and technology. It highlights some of
+                the projects and activities I have worked on as part of my learning journey
+                and reflects my growth, interests, and willingness to continuously improve my
+                technical skills while preparing for future opportunities in the field of
+                computer engineering.
+            </p>
+
+            <img src="placeholder.jpg" alt="A placeholder image for my portfolio">
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <table>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Gas Leakage Detector with SMS Alert using GSM Module and Arduino</td>
+                    <td>
+                        This project detects gas leaks using a gas sensor connected to an Arduino.
+                        When gas is detected, the system sends an alert message to the user via WhatsApp,
+                        allowing quick action to prevent accidents and improve safety.
+                    </td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Traffic Sign Recognition using Convolutional Neural Networks (CNN)</td>
+                    <td>
+                        This app uses Convolutional Neural Networks (CNN) to automatically recognize traffic signs
+                        from images captured by a camera. The system analyzes visual features in real time and
+                        identifies traffic signs to help improve road safety and driver awareness.
+                    </td>
+                    <td>2024</td>
+                </tr>
+                <tr>
+                    <td>Art on the Wall</td>
+                    <td>
+                        Is an Arduino-based drawing system that creates artwork on a vertical surface using motors
+                        and a pen. The system uses stepper motors, strings, and a servo motor to control the movement
+                        and position of the pen. By programming the Arduino, different patterns and designs can be
+                        drawn automatically, combining creativity with automation for educational and artistic purposes.
+                    </td>
+                    <td>2025</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="/submit_form" method="POST">
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <fieldset>
+                    <legend>How did you hear about this portfolio?</legend>
+
+                    <label for="friend">
+                        <input type="radio" id="friend" name="source" value="friend">
+                        Friend
+                    </label><br>
+
+                    <label for="social">
+                        <input type="radio" id="social" name="source" value="social">
+                        Social Media
+                    </label><br>
+
+                    <label for="search">
+                        <input type="radio" id="search" name="source" value="search">
+                        Search Engine
+                    </label><br>
+
+                    <label for="other">
+                        <input type="radio" id="other" name="source" value="other">
+                        Other
+                    </label>
+                </fieldset><br>
+
+                <fieldset>
+                    <legend>Skills / Interests</legend>
+
+                    <label for="web">
+                        <input type="checkbox" id="web" name="skills" value="web">
+                        Web Development
+                    </label><br>
+
+                    <label for="design">
+                        <input type="checkbox" id="design" name="skills" value="design">
+                        Design
+                    </label><br>
+
+                    <label for="photo">
+                        <input type="checkbox" id="photo" name="skills" value="photo">
+                        Photography
+                    </label><br>
+
+                    <label for="swim">
+                        <input type="checkbox" id="swim" name="skills" value="swim">
+                        Swimming
+                    </label>
+                </fieldset><br>
+
+                <label for="comments">Comments or Messages:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Raphaella Louise P. Monje</p>
+    </footer>
+
+</body>
+
+</html>

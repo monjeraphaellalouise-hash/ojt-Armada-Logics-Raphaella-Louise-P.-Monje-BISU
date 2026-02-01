@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #232629;
+    line-height: 1.5;
+}
+
+.navbar {
+    height: 63px;
+    background-color: #ffffff;
+    border-top: 2px solid #f48225;
+    border-bottom: 1px solid #e3e6e8;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    gap: 15px;
+}
+
+.nav-logo {
+    height: 32px;
+    width: 150px;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    padding: 5px 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #525960;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #232629;
+    text-decoration: underline;
+}
+
+.search-bar {
+    flex-grow: 1;
+    padding: 8px 10px;
+    border: 1px solid #babfc4;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.auth-buttons ul {
+    display: flex;
+    gap: 7px;
+    list-style: none;
+}
+
+.login-btn {
+    background-color: #fff;
+    color: #1b75d0;
+    border: 1px solid #1b75d0;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #f1f2f3;
+}
+
+.signup-btn {
+    background-color: #1b75d0;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+.signup-btn:hover {
+    background-color: #155ea8;
+}
+
+.login-btn,
+.signup-btn {
+    padding: 8px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.layout {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 180px;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-top,
+.sidebar-middle {
+    margin-bottom: 30px;
+}
+
+.sidebar-bottom {
+    margin-top: auto;
+}
+
+.sidebar-bottom p {
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    margin-left: 12px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #525960;
+    font-size: 18px;
+}
+
+.sidebar li a img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.sidebar li a.active {
+    font-size: 14px;
+    color: #6a737c;
+    margin: 8px 0 3px 12px;
+    transition: 0.3s;
+}
+
+.sidebar li a.active:hover {
+    background-color: #f1f2f3;
+    border-radius: 5px;
+}
+
+.content {
+    flex: 1;
+    padding: 0 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9fafa;
+    height: 330px;
+    padding: 40px 50px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-bottom: 40px;
+
+}
+
+.hero-text h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    color: #51565a;
+    margin-bottom: 15px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.hero-text h1 span {
+    background-color: transparent;
+    color: white;
+    padding: 0 20px;
+}
+
+.developer {
+    font-family: 'Roboto Slab', serif;
+    background-image: url("Stack Overflow/background-image.png");
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #3b4045;
+    line-height: 23px;
+}
+
+.hero-btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero img {
+    height: 300px;
+    margin-top: 25px;
+}
+
+.blue-btn {
+    background-color: #1b75d0;
+    color: white;
+    border: 1px solid transparent;
+    padding: 11px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.blue-btn:hover {
+    background-color: #155ea8;
+}
+
+.community {
+    text-decoration: none;
+    color: #1b75d0;
+}
+
+.community:hover {
+    text-decoration: underline;
+}
+
+.services h3 {
+    font-size: 20px;
+    color: #434343;
+    margin: 40px 0 30px 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.teams {
+    display: flex;
+    border: 1px solid #e3e6e8;
+    border-radius: 7px;
+    margin-bottom: 24px;
+    padding: 30px 0px 0px 40px;
+    gap: 15%;
+}
+
+.teams p {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.left ul {
+    list-style: none;
+}
+
+#teams-logo {
+    height: 67px;
+    width: 50%;
+    display: flex;
+}
+
+.left-ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.teams img {
+    height: 200px;
+}
+
+.left-ul ul {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.blue-btn1 {
+    background-color: #1b75d0;
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px 12px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.blue-btn1:hover {
+    background-color: #155ea8;
+}
+
+.community1 {
+    text-decoration: underline;
+    color: #1b75d0;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.community1:hover {
+    text-decoration: none;
+}
+
+
+.ai-section {
+    display: flex;
+    border: 1px solid #434343;
+    border-radius: 7px;
+    margin-bottom: 24px;
+    padding: 30px 0px 0px 40px;
+    background-color: #434343;
+    color: white;
+    gap: 10%;
+}
+
+#overflow-ai {
+    height: 45px;
+    width: 35%;
+    display: flex;
+    margin-bottom: 14px;
+}
+
+.ai-section img {
+    height: 200px;
+}
+
+.ai-section-card p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.card-logo {
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.orange-btn {
+    background-color: #e7700d;
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.orange-btn:hover {
+    background-color: #c75c00;
+}
+
+.ad-api {
+    display: flex;
+    gap: 30px;
+}
+
+.ad,
+.api {
+    flex: 1;
+    border: 1px solid #e3e6e8;
+    border-radius: 7px;
+    padding: 30px 30px 40px 40px;
+
+}
+
+.ad p {
+    font-size: 16px;
+    margin-right: 100px;
+}
+
+.ad img {
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.ad ul {
+    margin-top: 35px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.api img {
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.api p {
+    font-size: 16px;
+    margin: 0 80px 20px 0;
+    text-align: justify;
+}
+
+.api-btns ul {
+    margin-top: 30px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.work-content {
+    display: flex;
+    border: 1px solid #e3e6e8;
+    border-radius: 7px;
+    margin-bottom: 24px;
+    padding: 30px 0px 40px 40px;
+    position: relative;
+    overflow: visible;
+}
+
+.work-content p {
+    font-size: 16px;
+}
+
+.work h3 {
+    font-size: 20px;
+    color: #434343;
+    margin: 40px 0 20px 0;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#stack-logo {
+    height: 35px;
+    margin-bottom: 15px;
+}
+
+#work-image {
+    position: absolute;
+    right: 10px;
+    top: -62px;
+    height: 290px;
+    width: auto;
+}
+
+.work-ul {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}

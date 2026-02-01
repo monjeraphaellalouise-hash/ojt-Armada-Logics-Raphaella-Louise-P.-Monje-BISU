@@ -1,0 +1,5 @@
+“It took me approximately 40 minutes to complete the task. One of the challenges 
+I encountered was adjusting the size of the input boxes and text area, as well as properly 
+placing the options under each label. I resolved this by reviewing my notes, correcting the
+HTML structure, and using the appropriate form elements such as textarea, radio buttons, and
+checkboxes.”

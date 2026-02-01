@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Survey Form_Monje</title>
+    <form action="index.html" method="POST">
+
+</head>
+
+<body>
+
+    <h1 style="margin-left: 20px;">Survey Form</h1>
+
+    <form style="margin-left: 30px;">
+
+        <h2><label for="name">Full name:</label>
+            <input type="text" id="name" name="name"><br>
+        </h2>
+
+        <h2><label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </h2><br>
+
+        <fieldset style="width: 400px;">
+            <h2>How Satified are you with our sevice?</h2>
+
+            <input style="margin-left: 30px;" type="radio" id="very_satisfied" name="choices" value="Very Satisfied">
+            <label for="very_satisfied">Very Satisfied</label><br>
+
+            <input style="margin-left: 30px;" type="radio" id="satisfied" name="choices" value="Satisfied">
+            <label for="satisfied">Satisfied</label><br>
+
+            <input style="margin-left: 30px;" type="radio" id="neutral" name="choices" value="Neutral">
+            <label for="neutral">Neutral</label><br>
+
+            <input style="margin-left: 30px;" type="radio" id="dissatisfied" name="choices" value="Dissatisfied">
+            <label for="dissatisfied">Dissatisfied</label><br>
+
+            <input style="margin-left: 30px;" type="radio" id="very_dissatisfied" name="choices"
+                value="Very Dissatisfied">
+            <label for="very_dissatisfied">Very Dissatisfied</label><br>
+        </fieldset><br>
+
+        <fieldset style="width: 400px;">
+            <h2>What features do you value most?</h2>
+
+            <input style="margin-left: 30px;" type="checkbox" id="ease_of_use" name="features" value="Ease of Use">
+            <label for="ease_of_use">Ease of Use</label><br>
+
+            <input style="margin-left: 30px;" type="checkbox" id="security" name="features" value="Security">
+            <label for="security">Security</label><br>
+
+            <input style="margin-left: 30px;" type="checkbox" id="customer_support" name="features"
+                value="Customer Support">
+            <label for="customer_support">Customer Support</label><br>
+        </fieldset><br>
+
+        <h2>
+            <label for="describe_you">What best describe you?:</label>
+            <select id="describe_you" name="describe_you">
+                <option value="proffesional">Proffesional</option>
+                <option value="student">Student</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        </h2>
+
+        <h2>
+            <label for="message">Additional comments or suggestions?</label><br>
+            <textarea id="message" name="message" style="width: 400px; height: 200px;"></textarea><br>
+        </h2>
+
+        <input type="submit" value="submit">
+
+    </form>
+
+</body>
+
+</html>

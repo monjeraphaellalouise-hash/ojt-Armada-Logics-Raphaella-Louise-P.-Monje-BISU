@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+body {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+
+
+.top-header {
+    background-color: #6f2cf3;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.header-inner {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.header-left,
+.header-center,
+.header-right {
+    flex: 1;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    width: 28px;
+    height: auto;
+}
+
+.header-nav {
+    display: flex;
+    gap: 14px;
+}
+
+.header-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.search-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    height: 34px;
+    width: 220px;
+
+    padding: 0 14px;
+    border: 2px solid rgba(255, 255, 255, 0.55);
+    border-radius: 10px;
+
+
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.hero {
+    text-align: center;
+    padding: 72px 20px 0;
+}
+
+.hero-logo {
+    width: 140px;
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.hero-desc {
+    max-width: 760px;
+    margin: 0 auto 28px;
+    color: #adb5bd;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.hero-actions {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.command-input {
+    background-color: #343a40;
+    border: none;
+    color: #adb5bd;
+    padding: 14px 22px;
+    border-radius: 8px;
+    width: 260px;
+}
+
+.docs-btn {
+    background-color: #6f2cf3;
+    border: none;
+    color: #ffffff;
+    padding: 14px 26px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.docs-btn:hover {
+    background-color: #5a23c8;
+}
+
+.version {
+    font-size: 12px;
+    margin-bottom: 32px;
+}
+
+.version .ver-text,
+.version .dot {
+    color: #adb5bd;
+}
+
+.version a {
+    color: #6ea8fe;
+    text-decoration: none;
+}
+
+.version a:hover {
+    text-decoration: underline;
+}
+
+.code-icon {
+    width: 64px;
+    height: 64px;
+    background-color: #2b2f33;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 32px;
+    color: #6f2cf3;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+
+.install {
+    text-align: center;
+    padding-bottom: 72px;
+}
+
+.install h2 {
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.install p {
+    max-width: 620px;
+    margin: 0 auto 14px;
+    color: #adb5bd;
+}
+
+.install-link {
+    color: #0dcaf0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.install-link .link-text {
+    text-decoration: underline;
+}
+
+.install-link .arrow {
+    margin-left: 4px;
+}
+
+.install-link:hover {
+    color: #6ea8fe;
+}
