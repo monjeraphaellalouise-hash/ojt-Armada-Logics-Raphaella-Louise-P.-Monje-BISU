@@ -1,7 +1,3 @@
-// ============================================
-// Canon Character Profiles (Rick & Morty)
-// ============================================
-
 var characters = [
     {
         name: "Space Beth",
@@ -53,18 +49,13 @@ var characters = [
     }
 ];
 
-// ============================================
-// Random Character Generator
-// ============================================
 
+// Random Character Generator
 function generateCharacter() {
     return characters[Math.floor(Math.random() * characters.length)];
 }
 
-// ============================================
 // Display Character
-// ============================================
-
 function generate() {
     var character = generateCharacter();
     var card = document.getElementById("character-card");

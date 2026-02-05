@@ -1,4 +1,3 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -15,12 +14,12 @@ body {
     font-family: Arial, sans-serif;
     color: gold;
 
-    /* 🔥 BACKGROUND IMAGE */
+    
     background-image: url("images/bgrick&morty.jpg");
-    background-size: cover;        /* fill screen */
-    background-position: center;   /* center image */
+    background-size: cover;        
+    background-position: center;   
     background-repeat: no-repeat;
-    background-attachment: fixed;  /* cool parallax effect */
+    background-attachment: fixed;  
 }
 
 /* WRAPPER */
@@ -28,8 +27,6 @@ body {
     width: 100%;
     min-height: 100vh;
     padding: 40px 60px;
-
-    /* optional dark overlay for readability */
     background: rgba(0, 0, 0, 0.6);
 }
 
@@ -83,8 +80,6 @@ body {
     padding: 25px;
     max-width: 600px;
     align-self: center;
-
-    /* slight background so text stays readable */
     background: rgba(0, 0, 0, 0.75);
 }
 
