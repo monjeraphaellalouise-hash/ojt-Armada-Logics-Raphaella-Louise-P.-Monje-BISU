@@ -1,0 +1,110 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* PAGE BACKGROUND */
+body {
+    font-family: Arial, sans-serif;
+    color: gold;
+
+    /* 🔥 BACKGROUND IMAGE */
+    background-image: url("images/bgrick&morty.jpg");
+    background-size: cover;        /* fill screen */
+    background-position: center;   /* center image */
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /* cool parallax effect */
+}
+
+/* WRAPPER */
+.page {
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px 60px;
+
+    /* optional dark overlay for readability */
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* MAIN LAYOUT */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    width: 100%;
+}
+
+/* LEFT PANEL */
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* TITLE */
+.left-panel h1 {
+    margin-bottom: 30px;
+}
+
+/* CHARACTER GRID */
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    gap: 30px;
+}
+
+/* CHARACTER BOX */
+.box {
+    text-align: center;
+}
+
+.box img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.box p {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+/* RIGHT PANEL */
+.random-character {
+    border: 4px solid red;
+    padding: 25px;
+    max-width: 600px;
+    align-self: center;
+
+    /* slight background so text stays readable */
+    background: rgba(0, 0, 0, 0.75);
+}
+
+/* RANDOM IMAGE */
+#character-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+/* STATS */
+.stat {
+    margin: 8px 0;
+}
+
+/* BUTTON */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
+}
