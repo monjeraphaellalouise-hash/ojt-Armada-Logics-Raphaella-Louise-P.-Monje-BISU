@@ -1,7 +1,7 @@
 // Task 1: Setup Variables
 
 let customer_type = "non-member";
-let purchase_amount = 1200;
+let purchase_amount = 1000;
 
 console.log("Task 1: Setup Variables");
 console.log("Customer Type:", customer_type);
@@ -15,27 +15,22 @@ if (customer_type === "member" && purchase_amount >= 1000) {
     discount = 0.20;
     console.log("\nTask 2: Apply Discount Rules");
     console.log("Rule Applied: Member spending 1000 or more");
-
 } else if (customer_type === "member" && purchase_amount >= 500 && purchase_amount <= 999) {
     discount = 0.10;
     console.log("\nTask 2: Apply Discount Rules");
     console.log("Rule Applied: Member spending 500 to 999");
-
 } else if (customer_type === "member" && purchase_amount < 500) {
     discount = 0.05;
     console.log("\nTask 2: Apply Discount Rules");
     console.log("Rule Applied: Member spending below 500");
-
 } else if (customer_type === "non-member" && purchase_amount >= 1000) {
     discount = 0.10;
     console.log("\nTask 2: Apply Discount Rules");
     console.log("Rule Applied: Non-member spending 1000 or more");
-
 } else if (customer_type === "non-member" && purchase_amount >= 500 && purchase_amount <= 999) {
     discount = 0.05;
     console.log("\nTask 2: Apply Discount Rules");
     console.log("Rule Applied: Non-member spending 500 to 999");
-
 } else {
     discount = 0;
     console.log("\nTask 2: Apply Discount Rules");
