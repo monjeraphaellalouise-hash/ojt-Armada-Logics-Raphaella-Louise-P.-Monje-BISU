@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* main box */
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* balance text */
+.balance-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* input box */
+#amountInput {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* buttons row */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* buttons */
+button {
+    width: 48%;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* message text */
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+

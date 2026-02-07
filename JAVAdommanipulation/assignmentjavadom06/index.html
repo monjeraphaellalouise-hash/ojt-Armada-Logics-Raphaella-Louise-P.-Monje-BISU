@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #container {
+            width: 300px;
+            height: 260px;
+            background-color: lightgray;
+            margin: 50px auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .color-box {
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* colors */
+        .red { background-color: red; }
+        .blue { background-color: blue; }
+        .green { background-color: green; }
+        .orange { background-color: orange; }
+        .purple { background-color: purple; }
+        .pink { background-color: hotpink; }
+    </style>
+</head>
+<body>
+
+    <h1>Color Selector</h1>
+    <p>Click a color to change the background.</p>
+
+    <div id="container">
+        <button class="color-box red">Red</button>
+        <button class="color-box blue">Blue</button>
+        <button class="color-box green">Green</button>
+
+        <button class="color-box orange">Orange</button>
+        <button class="color-box purple">Purple</button>
+        <button class="color-box pink">Pink</button>
+    </div>
+
+    <script>
+      const container = document.getElementById("container");
+
+      // container click
+      container.addEventListener("click", function () {
+        alert("You clicked the container!");
+        this.style.backgroundColor = "lightgray";
+      });
+
+      // button clicks
+      document.querySelectorAll(".color-box").forEach(button => {
+        button.addEventListener("click", function (event) {
+          event.stopPropagation(); // remove this to see what happens
+
+          const color = window.getComputedStyle(this).backgroundColor;
+          container.style.backgroundColor = color;
+
+          alert("You clicked the " + this.textContent + " button!");
+        });
+      });
+    </script>
+
+</body>
+</html>

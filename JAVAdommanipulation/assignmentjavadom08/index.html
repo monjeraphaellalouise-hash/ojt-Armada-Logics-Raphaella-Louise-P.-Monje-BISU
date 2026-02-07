@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Fireflies</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .firefly {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Catch the Fireflies!</h1>
+
+    <img src="firefly1.png" class="firefly">
+    <img src="firefly1.png" class="firefly">
+    <img src="firefly1.png" class="firefly">
+    <img src="firefly1.png" class="firefly">
+
+    <script>
+        // get all fireflies
+        const fireflies = document.querySelectorAll(".firefly");
+
+        // add click event to each firefly
+        fireflies.forEach(firefly => {
+            firefly.addEventListener("click", function () {
+
+                // shrink firefly
+                this.style.transform = "scale(0.5)";
+
+                // hide firefly
+                setTimeout(() => {
+                    this.style.visibility = "hidden";
+                }, 300);
+
+                // bring it back
+                setTimeout(() => {
+                    this.style.visibility = "visible";
+                    this.style.transform = "scale(1)";
+                }, 1000);
+
+            });
+        });
+    </script>
+
+</body>
+
+</html>

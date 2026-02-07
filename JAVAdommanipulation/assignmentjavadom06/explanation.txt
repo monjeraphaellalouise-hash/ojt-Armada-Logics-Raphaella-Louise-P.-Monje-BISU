@@ -1,0 +1,9 @@
+When I clicked a color button at first, both the button alert and the container alert showed. 
+The background color changed for a moment but went back to light gray because the container click event also ran. 
+This happened because the click on the button was passed up to the container.
+
+After uncommenting event.stopPropagation(), clicking a color button only triggered the button alert. 
+The container click event no longer ran, so the background color changed to the selected color and stayed that way.
+
+event.stopPropagation() is useful in this example because it stops the button click from affecting the container. 
+This allows the button to change the background color without triggering the container’s click event that resets the color.

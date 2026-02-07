@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    font-family: "Times New Roman", serif;
+}
+
+/* Paper */
+.paper {
+    width: 720px;
+    border: 2px solid black;
+    padding: 30px 40px 40px;
+}
+
+/* Title */
+.paper h1 {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+}
+
+/* Form */
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.task-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.task-form button {
+    padding: 8px 16px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+/* List */
+.todo-lines {
+    list-style: none;
+}
+
+/* Task row */
+.todo-lines li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+/* Checkbox */
+.todo-lines input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    border: 2px solid black;
+    appearance: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.todo-lines input[type="checkbox"]:checked {
+    background: black;
+}
+
+/* Task text line */
+.task-text {
+    flex: 1;
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+    font-size: 18px;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+/* Remove button */
+.delete-btn {
+    margin-left: 15px;
+    padding: 4px 10px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+/* Notification */
+.notification {
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid black;
+    font-size: 14px;
+}

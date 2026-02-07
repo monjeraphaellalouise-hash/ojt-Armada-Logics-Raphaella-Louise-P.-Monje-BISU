@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, #3b2f7f, #4b3fa3);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* phone container */
+.phone {
+    width: 360px;
+    background-color: #3b2f7f;
+    color: #fff;
+    padding: 20px;
+    border-radius: 24px;
+}
+
+/* title */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* balance card */
+.balance-card {
+    background-color: #ffe6df;
+    color: #000;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.balance-card .label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.balance-card h2 {
+    margin: 0;
+    font-size: 26px;
+}
+
+/* input */
+#amountInput {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+/* buttons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 48%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: #6ec6ff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* message */
+#message {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* history */
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}

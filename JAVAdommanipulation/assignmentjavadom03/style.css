@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+/* profile card */
+.profile-card {
+    width: 320px;
+    margin: 0 auto 25px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    margin: 5px 0;
+}
+
+.profile-card p {
+    color: #555;
+}
+
+/* editor */
+.editor {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.editor label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.editor input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Account Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="phone">
+        <h1>Bank Account Manager</h1>
+
+        <!-- balance card -->
+        <div class="balance-card">
+            <p class="label">Current Balance</p>
+            <h2 id="balance">$0</h2>
+        </div>
+
+        <!-- input -->
+        <input type="number" id="amountInput" placeholder="Enter amount">
+
+        <!-- buttons -->
+        <div class="buttons">
+            <button id="withdrawBtn">Withdraw</button>
+            <button id="depositBtn">Deposit</button>
+        </div>
+
+        <!-- feedback -->
+        <p id="message"></p>
+
+        <!-- history -->
+        <h3>Transaction History</h3>
+        <ul id="history"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
