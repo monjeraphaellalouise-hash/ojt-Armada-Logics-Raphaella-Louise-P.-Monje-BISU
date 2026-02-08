@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Page title */
+h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Jack-in-the-box image */
+#boxImage {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hide Close button by default */
+.hidden {
+    display: none;
+}
+
+/* Pop */
+.pop {
+    animation: popOut 0.4s ease;
+}
+
+@keyframes popOut {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
